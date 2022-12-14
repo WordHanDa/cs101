@@ -11,7 +11,7 @@ Code, Compile, Run and Debug online from anywhere in world.
 int main()
 {
     for(int i=0;i<5;i++){
-        printf("*");
+        printf("*****");
     }
     return 0;
 }
