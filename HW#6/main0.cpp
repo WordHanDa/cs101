@@ -10,7 +10,7 @@ Code, Compile, Run and Debug online from anywhere in world.
 
 int main()
 {
-   int i = 100;
+   int i = 10;
    if(i%3==0){
        printf("Love\n");
    }
