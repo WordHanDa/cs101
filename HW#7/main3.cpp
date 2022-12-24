@@ -15,14 +15,14 @@ int main(){
     
     while(y<=9){
         printf("%d*%d=%d\t",y,x,y*x);
-        if(x<9){
+        /*if(x<9){
             x++;
         }else{
             x=1;
             y++;
             printf("\n");
-        }
-        //x<9 ? x++: (x=1, y++, printf("\n"));
+        }*/
+        x<9 ? x++: (x=1, y++, printf("\n"));
     }
     
     return 0;
