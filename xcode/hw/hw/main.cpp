@@ -13,6 +13,16 @@ int main() {
        }
        printf("\n");
     }
-    
+    for(int i = 1; i<rows; i++){
+        printf("*");
+        for(int i = 1; i<=rows*3-1; i++){
+            printf(" ");
+        }
+        printf("*");
+        printf("\n");
+    }
+    for(int i = 1; i<=rows*2-1; i++){
+        printf("* ");
+    }
     return 0;
 }
