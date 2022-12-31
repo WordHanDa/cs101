@@ -15,7 +15,7 @@ void body(int rows,int shift){
 int main() {
     int top = 3;
     int truck = top;
-    printf("X'mas terr\n");
+    printf("X'mas tree\n");
     for(int i=top;i>0;i--)
         body(top++, i);
     for(int i=truck;i>0;i--)
