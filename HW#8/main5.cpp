@@ -1,7 +1,7 @@
 #include <stdio.h>
 void body(int rows,int shift){
     int i, space, k = 0;
-
+    
     for (i=1; i<= rows; ++i, k=0) {
         for (int i=2; i<=shift; i++)
             printf("  ");
