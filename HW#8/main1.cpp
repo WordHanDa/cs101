@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main() {   
-   int rows=10;
+    int rows=10;
     int i, space, k = 0;
     for (i=1; i<= rows; ++i, k=0) {
         for (space = 1; space <= rows - i; ++space)
