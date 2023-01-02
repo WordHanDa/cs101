@@ -10,8 +10,7 @@ void binary(int n){
         i==4||i==8?printf(" "):printf("");
     }
 }
-int main()
-{
+int main(){
     binary(256);
     return 0;
 }
